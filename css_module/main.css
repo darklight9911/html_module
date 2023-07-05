@@ -1,0 +1,17 @@
+li{
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid darkblue;
+    background-color: lightsalmon;}
+p{
+    border-radius: 5px;
+    box-shadow: 7px 7px 5px gray;
+}
+span{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 2px solid cadetblue;
+    width: 1px;
+    height: 1px;
+    /* margin and padding hobena[inline] */
+    /* display: inline-block; */
+}
