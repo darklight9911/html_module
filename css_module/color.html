@@ -7,20 +7,31 @@
     <style>
         h3{color: darksalmon;}
         p{background-color: goldenrod;
-        width: 60%;}
+        width: 50%;}
         li{color:saddlebrown ;
-        font-size: large;}
+        font-size: large;}/*normally 16 px*/
         #id{font-family: cursive;}
         .class{text-align: left;
             list-style-type: circle;
-        font-weight: bold;}
+        font-weight: bold;}/*normal = 400px & bold = 700px*/
         h6,footer{background-color: darkgrey;
+        width: 50%;}/* (,)can be use in id and cls also..infact they can be diff type*/
+        .test{font-style: oblique;}
+        .try{color: darkolivegreen;
+        font-size: large;}
+        *{margin:1%;}/*will apply in all */
+        input{font: 300;}
+        input[type="password"]{color: aqua;}
+        span{color: darkblue;
+        font-style:italic;}
+        div{background-color: darksalmon;
         width: 50%;}
+
     </style>
 </head>
 <body>
     <h3>learning basic css...</h3>
-    <p>CSS means: cascading style sheet.</p>
+    <p>CSS means: <span>cascading style sheet.</span></p>
     <p>in short css is the second most important part of a complete website.</p>
     <h3>types of css:</h3>
     <ul>
@@ -34,13 +45,19 @@
         <li>id [#]</li>
         <li>class[.]</li>
         <li>universal[*(asterisk)]</li>
-        <li>grouping & attribute[,]</li>
+        <li class="test try">grouping & attribute[,]</li>
 
     </ol>
     <h6>Lorem, ipsum dolor sit amet consectetur adipisicing elit.
       Assumenda odit nihil labore maxime exercitationem ad, voluptas voluptatem
       culpa tenetur, facere similique repellendus delectus qui sed voluptatum 
       blanditiis accusantium necessitatibus facilis.</h6>
+    <h3>lets create a form!</h3>
+    <div><form>
+        text:<input type="text">
+        pass:<input type="password" placeholder="enter to see magic! ">
+    </div>
+    </form>
     <footer>all about basic css :)  </footer>
 
 </body>
